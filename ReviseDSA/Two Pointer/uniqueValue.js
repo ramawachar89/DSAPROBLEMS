@@ -1,14 +1,17 @@
 let array=[1,1,1,,8,1,1,2]
-
+let freq={}
 function uniqueValue(arr){
-  let i=0;
-  let j=arr.length-1;
-  if(arr[i]!=arr[j]){
-    arr[i]+=arr[j]
-    j--
-  }else{
-    i++
+ for(let i=0;i<arr.length;i++){
+  freq[arr[i]]=(freq[arr[i]]||0)+1
+ }
+ let ans=[]
+ for(pair in freq){
+  if(freq[pair]==1){
+    ans.push(pair)
+  }else if(freq[pair]>1){
+   ans.push(pair)
   }
-  return arr[i]
+ }
+ return ans
 }
 console.log(uniqueValue(array))

@@ -6,14 +6,16 @@ let i=0;
 let j=arr.length-1;
 var a,b;
 let diff=Number.MAX_VALUE
-    while(i<j){
+while(i<j){
     let pair_sum=arr[i]+arr[j]
-    let currentDiff=Math.abs(x,pair_sum)
-    if(currentDiff<diff){
-        diff=currentDiff
+    let currdiff=Math.abs(pair_sum,x)
+    if(currdiff<diff){
+        diff=currdiff;
         a=arr[i]
         b=arr[j]
     }
+
+
      if(arr[i]+arr[j]>x){
         j--
      }else if(arr[i]+arr[j]<x){

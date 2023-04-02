@@ -34,4 +34,21 @@ function sum(arr,num){
   }
   return current_sum;
 }
-console.log(sum(array,3))
+// console.log(sum(array,4))
+
+
+let curr=0
+function con(arr,k){
+ 
+  for(let i=0;i<arr.length;i++){
+    let temp=0
+    for(let j=0; j<k;j++){
+       temp+=arr[i+j]
+    }
+    if(temp>curr){
+      curr=temp
+    }
+  }
+  return curr
+}
+console.log(con(array,4))

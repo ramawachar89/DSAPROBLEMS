@@ -31,7 +31,7 @@ for(key in fre1){
 }
 return true
 }
-console.log(isAnagram("rampppm","mar"))
+console.log(isAnagram("amrj","mar"))
 
 
 // function isAnagram(s1,s2){
