@@ -1,5 +1,5 @@
 //capital first first letter
-
+//problems
 function cap(arr){
     let str=arr.split(" ")
     console.log(str)
