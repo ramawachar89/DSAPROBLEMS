@@ -18,6 +18,7 @@ function reverse(a){
     if(a.length==0)return ""
  return reverse( a.slice(1))+a[0]
 }
+
 function rev(b){
   let w=b.split(" ")
   for(let i=0;i<w.length;i++){
