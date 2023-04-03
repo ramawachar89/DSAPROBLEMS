@@ -1,1 +1,1 @@
-//remove duplicate
+//problem solving(Two pointer method)
