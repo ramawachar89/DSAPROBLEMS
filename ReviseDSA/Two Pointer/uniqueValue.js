@@ -5,7 +5,7 @@ function uniqueValue(arr){
   freq[arr[i]]=(freq[arr[i]]||0)+1
  }
  let ans=[]
- for(pair in freq){
+ for(let pair in freq){
   if(freq[pair]==1){
     ans.push(pair)
   }else if(freq[pair]>1){
