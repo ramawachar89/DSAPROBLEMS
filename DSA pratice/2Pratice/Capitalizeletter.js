@@ -31,12 +31,23 @@
 // }
 // console.log(capital(["jaka","ooo"]));
 
-function cap(s){
-    let ans=[]
+// function cap(s){
+//     if(s.length==0)return []
+//     let ans=[]
    
-    console.log(s)
- let res=s[0][0].toUpperCase() + s[0].slice(1)
- ans.push(res)
-return ans.concat(cap(s.slice(1)))
+//     console.log(s)
+//  let res=s[0][0].toUpperCase() + s[0].slice(1)
+//  ans.push(res)
+// return ans.concat(cap(s.slice(1)))
+// }
+// console.log(cap("rjloi laksl sdfg dfr"))
+
+
+function ll(arr){
+    if(arr.length==0)return []
+    let ans=[]
+    let s=arr[0][0].toUpperCase()+arr[0].slice(1)
+    ans.push(s)
+    return ans.concat(ll(arr.slice(1)))
 }
-console.log(cap("rjloi laksl sdfg dfr"))
+console.log(ll(["ert","lkj"]))
