@@ -25,7 +25,7 @@
 //   for(let i=0;i<arr.length;i++){
 //     if(Array.isArray(arr[i])==false) flatarr.push(arr[i])
 //     else flatarr=flatarr.concat(flateen(arr[i]))
-//   }
+//   }//
 //   return flatarr
 // }
 // console.log(flateen([1,2,3,4,[345,55,"k","kk"]["l",3,4]]))
