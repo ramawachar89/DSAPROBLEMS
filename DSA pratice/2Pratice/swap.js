@@ -10,7 +10,7 @@ function swap(a,b){
 console.log(swap(a,b))
 
 let c="some"
-let d="new"
+let d="new"//
 
 c=c.concat(d)
 d=c.slice(d.length)
