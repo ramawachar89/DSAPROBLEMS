@@ -8,7 +8,7 @@ function swap(a,b){
   console.log(a,b)
 }
 console.log(swap(a,b))
-
+//  
 let c="some"
 let d="new"
 
