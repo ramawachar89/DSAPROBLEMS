@@ -11,7 +11,7 @@ console.log(swap(a,b))
 
 let c="some"
 let d="new"//
-//
+
 c=c.concat(d)
 d=c.slice(d.length)
 c=c.slice(0,d.length)
